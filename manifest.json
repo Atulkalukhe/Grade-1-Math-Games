@@ -1,0 +1,20 @@
+{
+  "name": "Grade 1 Math Games",
+  "short_name": "Math Games",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Fun Math Games for Grade 1 students",
+  "icons": [
+    {
+      "src": "https://github.com/Atulkalukhe/Grade-1-Math-Games/blob/main/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://github.com/Atulkalukhe/Grade-1-Math-Games/blob/main/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

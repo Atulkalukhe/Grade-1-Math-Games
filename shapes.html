@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shape Matching Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Shape Matching Game</h1>
+      <p>Match the shape with its correct name!</p>
+    </header>
+
+    <section id="shape-game">
+      <div id="shape-display"></div>
+      <select id="shape-choices">
+        <option value="circle">Circle</option>
+        <option value="square">Square</option>
+        <option value="triangle">Triangle</option>
+      </select>
+      <button onclick="checkShape()">Match</button>
+      <p id="shape-feedback"></p>
+    </section>
+
+    <footer>
+      <p>Developed by: Mr. Atul Kalukhe</p>
+      <p>Mobile: +91 8378938665</p>
+    </footer>
+  </div>
+
+  <script src="shapes.js"></script>
+</body>
+</html>

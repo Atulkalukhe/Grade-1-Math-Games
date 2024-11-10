@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade 1 Math Games</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(registration => {
+        console.log('Service Worker registered with scope:', registration.scope);
+      }).catch(error => {
+        console.log('Service Worker registration failed:', error);
+      });
+  }
+</script>
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to Grade 1 Math Games!</h1>
+      <p>Choose a game to start learning and having fun!</p>
+    </header>
+
+    <section class="game-options">
+      <a href="counting.html" class="game-link">Counting Game</a>
+      <a href="shapes.html" class="game-link">Shape Matching</a>
+      <a href="addition.html" class="game-link">Addition Fun</a>
+    </section>
+
+    <footer>
+      <p>Developed by: Mr. Atul Kalukhe</p>
+      <p>Mobile: +91 8378938665</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
